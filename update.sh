@@ -7,14 +7,15 @@ function update_revs {
 	git push origin;
 };
 function update_index {
-	(cat page/head.html; 
+	(cat page/head.html; echo "<ul>";
 	find revs -type f | while read line; do 
-		echo "<a href='$line'>`basename "$line"`</a>";
+		echo "<li><a href='$line'>`basename "$line"`</a></li>";
 	done;
+	echo "</ul>";
 	cat page/footer.html;) > "index.html";
 };
 function update {
-	update_revs;
+	# update_revs;
 	update_index;
 }
 update;
