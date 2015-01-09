@@ -1,5 +1,5 @@
 # etr-warszawa
-Repozytorium archiwizujące elektroniczny terminarz rozpraw Wojewódzkiego Sądu Administracyjnego w Warszawie. Swobodny przegląd dostępny jest pod adresem [ad-m.github.io/etr-warszawa/].
+Repozytorium archiwizujące elektroniczny terminarz rozpraw Wojewódzkiego Sądu Administracyjnego w Warszawie. Swobodny przegląd dostępny jest pod adresem http://ad-m.github.io/etr-warszawa/.
 
 Istnieje kilka metod przeszukiwania niniejszego zbioru. 
 
