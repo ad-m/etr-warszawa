@@ -8,7 +8,7 @@ function update_revs {
 };
 function update_index {
 	(cat page/head.html; echo "<ul>";
-	find revs -type f | while read line; do 
+	find revs -type f | sort -n | while read line; do 
 		echo "<li><a href='$line'>`basename "$line"`</a></li>";
 	done;
 	echo "</ul>";
@@ -19,7 +19,7 @@ function update_index {
 };
 function generate_sitemap {
 	echo '<urlset>'
-	find revs -type f | while read line; do 
+	find revs -type f | sort -n | while read line; do 
 		echo "<url><loc>$URL$line</loc></url>";
 	done;
 	echo '</urlset>';
