@@ -1,10 +1,11 @@
 #!/bin/bash
 URL="http://ad-m.github.io/etr-warszawa/";
 function update_revs {
-	rev=$(date +"%Y-%m-%d %T");
+	mkdir "$(date +'%Y/%m/')" -p;
+	rev=$(date +"%Y/%m/%d_%T");
 	(cat page/head.html; python etr-warszawa-grab.py; cat page/footer.html;) | gzip -9 >  "revs/$rev.html.gz";
-	git add "revs/$rev.html.gz" "revs/current.html.gz";
-	git commit -m "Added rev $rev" "revs/$rev.html.gz" "revs/current.html.gz";
+	git add "revs/$rev.html.gz";
+	git commit -m "Added rev $rev" "revs/$rev.html.gz";
 };
 function update_index {
 	(cat page/head.html; echo "<ul>";
