@@ -2,9 +2,9 @@
 URL="http://ad-m.github.io/etr-warszawa/";
 function update_revs {
 	rev=$(date +"%Y-%m-%d %T");
-	(cat page/head.html; python etr-warszawa-grab.py; cat page/footer.html;) | tee "revs/$rev.html" > "revs/current.html";
-	git add "revs/$rev.html" "revs/current.html";
-	git commit -m "Added rev $rev" "revs/$rev.html" "revs/current.html";
+	(cat page/head.html; python etr-warszawa-grab.py; cat page/footer.html;) | gzip -9 >  "revs/$rev.html.gz";
+	git add "revs/$rev.html.gz" "revs/current.html.gz";
+	git commit -m "Added rev $rev" "revs/$rev.html.gz" "revs/current.html.gz";
 };
 function update_index {
 	(cat page/head.html; echo "<ul>";
