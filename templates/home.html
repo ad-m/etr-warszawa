@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="jumbotron">
+  <h1>Przeszukaj archiwum wokandy!</h1>
+  <p>Czy chciałbyś wiedzieć wobec kogo został wydany wyrok <abbr title="Wojewódzki Sąd Administracyjny">WSA</abbr> w Warszawie? Potrzebujesz znać terminy rozpraw? A może poszukujesz wykazu spraw organu? Skorzystaj z wyszukiwarki poniżej. </p>
+  <form class="form-inline" action="/search">
+  <div class="form-group">
+    <label>Zapytanie</label>
+    <input type="text" name="query" class="form-control" placeholder="Sygnatura, dane organu …">
+  </div>
+<button type="submit" class="btn btn-primary" aria-label="Left Align">Szukaj <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+</form>
+</div>
+{% endblock %}
