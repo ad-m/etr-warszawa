@@ -8,3 +8,5 @@ Można wykorzystać wyszukiwarkę wbudowaną w Github. Wystarczy - pilnująć, a
 Możesz także użyć do tego celu Google. Zapytanie musisz zbudować według wzoru: "site:ad-m.tk.github.io [sygnatura]" np. [II SAB/Wa 667/41l](http://lmgtfy.com/?q=site%3Aad-m.github.io+II+SAB%2FWa+667%2F14).
 
 Autorem narzędzia jest Adam Dobrawy ([FB](http://ad-m.tk), [blog](http://ochrona.jawne.info.pl/)).
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)

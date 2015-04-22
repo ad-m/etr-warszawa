@@ -1,0 +1,16 @@
+{
+  "name": "etr-warszawa",
+  "description": "Repozytorium archiwizujące elektroniczny terminarz rozpraw Wojewódzkiego Sądu Administracyjnego w Warszawie.",
+  "keywords": [
+    "productivity",
+  ],
+  "website": "https://small-sharp-tool.com/",
+  "repository": "https://github.com/ad-m/etr-warszawa",
+  "env": {
+    "BUILDPACK_URL": "https://github.com/stomita/heroku-buildpack-python",
+    "WEB_CONCURRENCY": {
+      "description": "The number of processes to run.",
+      "value": "1"
+    }
+  },
+}
