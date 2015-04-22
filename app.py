@@ -47,7 +47,7 @@ def home():
 
 @app.route('/search')
 def search():
-    query = request.args.get('query')
+    query = request.args.get('query').split()
     page = request.args.get('page', '1')
     page = int(page) if page.isdigit() else 1
     context = {}
