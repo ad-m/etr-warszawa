@@ -1,7 +1,7 @@
 # etr-warszawa
 Repozytorium archiwizujące elektroniczny terminarz rozpraw Wojewódzkiego Sądu Administracyjnego w Warszawie. Swobodny przegląd dostępny jest pod adresem http://ad-m.github.io/etr-warszawa/.
 
-Istnieje kilka metod przeszukiwania niniejszego zbioru. 
+Istnieje kilka metod przeszukiwania niniejszego zbioru, jednak podstawowym jest skorzystanie z aplikacji [app.py](http://etr-warszawa.herokuapp.com).
 
 Można wykorzystać wyszukiwarkę wbudowaną w Github. Wystarczy - pilnująć, aby było wyświetlone "This repository" wpisać w powyższe pole sygnaturę sprawy, następnie odpowiedni plik dnia, a następnie w nim odszukać odpowiednią pozycje (CTRL+F FTW). Przykładowo sygnatura [II SAB/Wa 667/14](https://github.com/ad-m/etr-warszawa/search?utf8=%E2%9C%93&q=II+SAB%2FWa+667%2F14).
 
