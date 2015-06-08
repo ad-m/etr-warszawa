@@ -9,4 +9,4 @@ Możesz także użyć do tego celu Google. Zapytanie musisz zbudować według wz
 
 Autorem narzędzia jest Adam Dobrawy ([FB](http://ad-m.tk), [blog](http://ochrona.jawne.info.pl/)).
 
-[![Deploy](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fad-m%2Fetr-warszawa/tree/gh-pages)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fad-m%2Fetr-warszawa/tree/gh-pages)
